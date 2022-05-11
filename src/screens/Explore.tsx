@@ -13,7 +13,7 @@ interface IProps {}
 const SafeArea = styled.SafeAreaView`
   flex: 1;
   height: 100%;
-  background-color: teal;
+  /* background-color: red; */
 `;
 
 const Container = styled.View`
@@ -34,6 +34,32 @@ const Explore = ({ navigation }: Props) => {
     <SafeArea style={styles.container}>
       <Text>Explore</Text>
       <ScrollView>
+        <Text style={{ fontSize: 26, fontFamily: 'Apple SD Gothic Neo' }}>
+          Apple SD Gothic Neo{' '}
+        </Text>
+        <Text style={{ fontSize: 26, fontFamily: 'AppleSDGothicNeo-Bold' }}>
+          AppleSDGothicNeo-Bold{' '}
+        </Text>
+        <Text style={{ fontSize: 26, fontFamily: 'AppleSDGothicNeo-Light' }}>
+          AppleSDGothicNeo-Light{' '}
+        </Text>
+        <Text style={{ fontSize: 26, fontFamily: 'AppleSDGothicNeo-Medium' }}>
+          AppleSDGothicNeo-Medium{' '}
+        </Text>
+        <Text style={{ fontSize: 26, fontFamily: 'AppleSDGothicNeo-Regular' }}>
+          AppleSDGothicNeo-Regular{' '}
+        </Text>
+        <Text style={{ fontSize: 26, fontFamily: 'AppleSDGothicNeo-SemiBold' }}>
+          AppleSDGothicNeo-SemiBold{' '}
+        </Text>
+        <Text style={{ fontSize: 26, fontFamily: 'AppleSDGothicNeo-Thin' }}>
+          AppleSDGothicNeo-Thin{' '}
+        </Text>
+        <Text
+          style={{ fontSize: 26, fontFamily: 'AppleSDGothicNeo-UltraLight' }}
+        >
+          AppleSDGothicNeo-UltraLight{' '}
+        </Text>
         <RestaurantCard
           name="Sushi man"
           onPress={name => {

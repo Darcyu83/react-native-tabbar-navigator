@@ -10,7 +10,9 @@ const RestaurantCard: React.FC<IProps> = ({ name, onPress }) => {
   return (
     <TouchableOpacity onPress={() => onPress(name)}>
       <View style={styles.container}>
-        <Text>Name : {name}</Text>
+        <Text style={{ fontFamily: 'AppleSDGothicNeo-Bold' }}>
+          Name : {name}
+        </Text>
       </View>
     </TouchableOpacity>
   );

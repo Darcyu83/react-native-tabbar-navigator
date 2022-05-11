@@ -65,7 +65,6 @@ const RestaurantScreenStack = () => {
 };
 
 //2-2.
-
 export type ExploreStackParams = {
   Explore: undefined;
   Restaurant: { name: string };
