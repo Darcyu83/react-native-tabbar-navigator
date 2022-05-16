@@ -14,9 +14,11 @@ import Profile from './src/screens/Profile';
 import Restaurants from './src/screens/Restaurants';
 import Restaurant from './src/screens/Restaurant';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import Alaram from './src/screens/Alarm';
+import Alarm from './src/screens/Alarm';
 
 export type RootStackParamList = {
-  ExploreStack: undefined;
+  ExploreStack: NavigatorScreenParams<ExploreStackParams>;
   RestaurantsStack: NavigatorScreenParams<RestaurantsStackParams>;
   Profile: { userId: string } | undefined;
   Restaurant: { name: string };
@@ -68,6 +70,7 @@ const RestaurantScreenStack = () => {
 export type ExploreStackParams = {
   Explore: undefined;
   Restaurant: { name: string };
+  Alarm: undefined;
 };
 
 const ExploreStack = createNativeStackNavigator<ExploreStackParams>();
@@ -82,6 +85,7 @@ const ExploreScreenStack = () => {
     >
       <ExploreStack.Screen name="Explore" component={Explore} />
       <ExploreStack.Screen name="Restaurant" component={Restaurant} />
+      <ExploreStack.Screen name="Alarm" component={Alarm} />
     </ExploreStack.Navigator>
   );
 };

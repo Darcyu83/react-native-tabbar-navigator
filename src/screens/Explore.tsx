@@ -1,8 +1,9 @@
 import { BottomTabScreenProps } from '@react-navigation/bottom-tabs';
 import { CompositeScreenProps } from '@react-navigation/native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { NativeStackNavigatorProps } from '@react-navigation/native-stack/lib/typescript/src/types';
 import React from 'react';
-import { Text, View, StyleSheet, ScrollView } from 'react-native';
+import { Text, View, StyleSheet, ScrollView, Button } from 'react-native';
 import styled from 'styled-components/native';
 import { ExploreStackParams, RootStackParamList } from '../../AppTabNavigator';
 import Menu from '../components/Menu';
@@ -32,34 +33,12 @@ type Props = NativeStackScreenProps<RootStackParamList, 'ExploreStack'>;
 const Explore = ({ navigation }: Props) => {
   return (
     <SafeArea style={styles.container}>
-      <Text>Explore</Text>
+      <Button
+        title="Alarm"
+        onPress={() => navigation.navigate('ExploreStack', { screen: 'Alarm' })}
+      />
+
       <ScrollView>
-        <Text style={{ fontSize: 26, fontFamily: 'Apple SD Gothic Neo' }}>
-          Apple SD Gothic Neo{' '}
-        </Text>
-        <Text style={{ fontSize: 26, fontFamily: 'AppleSDGothicNeo-Bold' }}>
-          AppleSDGothicNeo-Bold{' '}
-        </Text>
-        <Text style={{ fontSize: 26, fontFamily: 'AppleSDGothicNeo-Light' }}>
-          AppleSDGothicNeo-Light{' '}
-        </Text>
-        <Text style={{ fontSize: 26, fontFamily: 'AppleSDGothicNeo-Medium' }}>
-          AppleSDGothicNeo-Medium{' '}
-        </Text>
-        <Text style={{ fontSize: 26, fontFamily: 'AppleSDGothicNeo-Regular' }}>
-          AppleSDGothicNeo-Regular{' '}
-        </Text>
-        <Text style={{ fontSize: 26, fontFamily: 'AppleSDGothicNeo-SemiBold' }}>
-          AppleSDGothicNeo-SemiBold{' '}
-        </Text>
-        <Text style={{ fontSize: 26, fontFamily: 'AppleSDGothicNeo-Thin' }}>
-          AppleSDGothicNeo-Thin{' '}
-        </Text>
-        <Text
-          style={{ fontSize: 26, fontFamily: 'AppleSDGothicNeo-UltraLight' }}
-        >
-          AppleSDGothicNeo-UltraLight{' '}
-        </Text>
         <RestaurantCard
           name="Sushi man"
           onPress={name => {

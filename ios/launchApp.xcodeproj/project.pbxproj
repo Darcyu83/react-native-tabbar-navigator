@@ -12,17 +12,17 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		29261388DA9C48EFAF998FD7 /* AppleSDGothicNeoL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D13E5DBBA3274F9284E3E78C /* AppleSDGothicNeoL.ttf */; };
+		51CF247C73144D1FAD0638FA /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E9A0E94D90648B6A808FF53 /* Montserrat-VariableFont_wght.ttf */; };
+		619B6FABC6D3458DB5934466 /* Montserrat-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D28B354763D145978D032195 /* Montserrat-Italic-VariableFont_wght.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-launchApp-launchAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-launchApp-launchAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		619B6FABC6D3458DB5934466 /* Montserrat-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D28B354763D145978D032195 /* Montserrat-Italic-VariableFont_wght.ttf */; };
-		C931BEF969FD44FCAF4C3292 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C44F0AFD52D4390BC72FA06 /* Montserrat-Regular.ttf */; };
 		90C13818CCD443A78AC7CAFD /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F17EF67941D4FCFB32163D0 /* Montserrat-SemiBold.ttf */; };
-		51CF247C73144D1FAD0638FA /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E9A0E94D90648B6A808FF53 /* Montserrat-VariableFont_wght.ttf */; };
-		AF0520631FF44EAF8CB65DBE /* AppleSDGothicNeoB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 751FEB05948440CC9492E5EF /* AppleSDGothicNeoB.ttf */; };
 		9378E6DB5C5245F298AB69BE /* AppleSDGothicNeoEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FC5869307F9465E8EA846CE /* AppleSDGothicNeoEB.ttf */; };
-		FB86D3FDDABA4338B4CA2BB4 /* AppleSDGothicNeoH.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2403CDF335B9431F9CDF9709 /* AppleSDGothicNeoH.ttf */; };
-		29261388DA9C48EFAF998FD7 /* AppleSDGothicNeoL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D13E5DBBA3274F9284E3E78C /* AppleSDGothicNeoL.ttf */; };
+		AF0520631FF44EAF8CB65DBE /* AppleSDGothicNeoB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 751FEB05948440CC9492E5EF /* AppleSDGothicNeoB.ttf */; };
+		C931BEF969FD44FCAF4C3292 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C44F0AFD52D4390BC72FA06 /* Montserrat-Regular.ttf */; };
 		EDC4AC2CD66B4B91BC0E29BB /* AppleSDGothicNeoM.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CC12BE0E8594183A8C1131A /* AppleSDGothicNeoM.ttf */; };
+		FB86D3FDDABA4338B4CA2BB4 /* AppleSDGothicNeoH.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2403CDF335B9431F9CDF9709 /* AppleSDGothicNeoH.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,7 @@
 		00E356EE1AD99517003FC87E /* launchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = launchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* launchAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = launchAppTests.m; sourceTree = "<group>"; };
+		0F17EF67941D4FCFB32163D0 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* launchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = launchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = launchApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = launchApp/AppDelegate.mm; sourceTree = "<group>"; };
@@ -46,22 +47,21 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = launchApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = launchApp/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-launchApp-launchAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-launchApp-launchAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2403CDF335B9431F9CDF9709 /* AppleSDGothicNeoH.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AppleSDGothicNeoH.ttf; path = ../src/assets/fonts/AppleSDGothicNeoH.ttf; sourceTree = "<group>"; };
+		2CC12BE0E8594183A8C1131A /* AppleSDGothicNeoM.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AppleSDGothicNeoM.ttf; path = ../src/assets/fonts/AppleSDGothicNeoM.ttf; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-launchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-launchApp.debug.xcconfig"; path = "Target Support Files/Pods-launchApp/Pods-launchApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3C44F0AFD52D4390BC72FA06 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-launchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-launchApp.release.xcconfig"; path = "Target Support Files/Pods-launchApp/Pods-launchApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-launchApp-launchAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-launchApp-launchAppTests.debug.xcconfig"; path = "Target Support Files/Pods-launchApp-launchAppTests/Pods-launchApp-launchAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-launchApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-launchApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC5869307F9465E8EA846CE /* AppleSDGothicNeoEB.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AppleSDGothicNeoEB.ttf; path = ../src/assets/fonts/AppleSDGothicNeoEB.ttf; sourceTree = "<group>"; };
+		751FEB05948440CC9492E5EF /* AppleSDGothicNeoB.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AppleSDGothicNeoB.ttf; path = ../src/assets/fonts/AppleSDGothicNeoB.ttf; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = launchApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-launchApp-launchAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-launchApp-launchAppTests.release.xcconfig"; path = "Target Support Files/Pods-launchApp-launchAppTests/Pods-launchApp-launchAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E9A0E94D90648B6A808FF53 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-VariableFont_wght.ttf"; path = "../src/assets/fonts/Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		D13E5DBBA3274F9284E3E78C /* AppleSDGothicNeoL.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AppleSDGothicNeoL.ttf; path = ../src/assets/fonts/AppleSDGothicNeoL.ttf; sourceTree = "<group>"; };
+		D28B354763D145978D032195 /* Montserrat-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic-VariableFont_wght.ttf"; path = "../src/assets/fonts/Montserrat-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		D28B354763D145978D032195 /* Montserrat-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "Montserrat-Italic-VariableFont_wght.ttf"; path = "../src/assets/fonts/Montserrat-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3C44F0AFD52D4390BC72FA06 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0F17EF67941D4FCFB32163D0 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8E9A0E94D90648B6A808FF53 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "Montserrat-VariableFont_wght.ttf"; path = "../src/assets/fonts/Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		751FEB05948440CC9492E5EF /* AppleSDGothicNeoB.ttf */ = {isa = PBXFileReference; name = "AppleSDGothicNeoB.ttf"; path = "../src/assets/fonts/AppleSDGothicNeoB.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5FC5869307F9465E8EA846CE /* AppleSDGothicNeoEB.ttf */ = {isa = PBXFileReference; name = "AppleSDGothicNeoEB.ttf"; path = "../src/assets/fonts/AppleSDGothicNeoEB.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2403CDF335B9431F9CDF9709 /* AppleSDGothicNeoH.ttf */ = {isa = PBXFileReference; name = "AppleSDGothicNeoH.ttf"; path = "../src/assets/fonts/AppleSDGothicNeoH.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D13E5DBBA3274F9284E3E78C /* AppleSDGothicNeoL.ttf */ = {isa = PBXFileReference; name = "AppleSDGothicNeoL.ttf"; path = "../src/assets/fonts/AppleSDGothicNeoL.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2CC12BE0E8594183A8C1131A /* AppleSDGothicNeoM.ttf */ = {isa = PBXFileReference; name = "AppleSDGothicNeoM.ttf"; path = "../src/assets/fonts/AppleSDGothicNeoM.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +99,23 @@
 				00E356F11AD99517003FC87E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		050DF670FF9541EB8CDBE84A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D28B354763D145978D032195 /* Montserrat-Italic-VariableFont_wght.ttf */,
+				3C44F0AFD52D4390BC72FA06 /* Montserrat-Regular.ttf */,
+				0F17EF67941D4FCFB32163D0 /* Montserrat-SemiBold.ttf */,
+				8E9A0E94D90648B6A808FF53 /* Montserrat-VariableFont_wght.ttf */,
+				751FEB05948440CC9492E5EF /* AppleSDGothicNeoB.ttf */,
+				5FC5869307F9465E8EA846CE /* AppleSDGothicNeoEB.ttf */,
+				2403CDF335B9431F9CDF9709 /* AppleSDGothicNeoH.ttf */,
+				D13E5DBBA3274F9284E3E78C /* AppleSDGothicNeoL.ttf */,
+				2CC12BE0E8594183A8C1131A /* AppleSDGothicNeoM.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		13B07FAE1A68108700A75B9A /* launchApp */ = {
@@ -166,23 +183,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		050DF670FF9541EB8CDBE84A /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				D28B354763D145978D032195 /* Montserrat-Italic-VariableFont_wght.ttf */,
-				3C44F0AFD52D4390BC72FA06 /* Montserrat-Regular.ttf */,
-				0F17EF67941D4FCFB32163D0 /* Montserrat-SemiBold.ttf */,
-				8E9A0E94D90648B6A808FF53 /* Montserrat-VariableFont_wght.ttf */,
-				751FEB05948440CC9492E5EF /* AppleSDGothicNeoB.ttf */,
-				5FC5869307F9465E8EA846CE /* AppleSDGothicNeoEB.ttf */,
-				2403CDF335B9431F9CDF9709 /* AppleSDGothicNeoH.ttf */,
-				D13E5DBBA3274F9284E3E78C /* AppleSDGothicNeoL.ttf */,
-				2CC12BE0E8594183A8C1131A /* AppleSDGothicNeoM.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
