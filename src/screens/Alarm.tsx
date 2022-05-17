@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Text, View, StyleSheet, Button, ColorPropType } from 'react-native';
 import DatePicker from 'react-native-date-picker';
+import NewModuleButton from '../components/NewModuleButton';
 
 interface IProps {}
 
@@ -11,6 +12,7 @@ const Alarm = ({}: IProps) => {
     <>
       <View>
         <Button title="Open picker" onPress={() => setOpen(true)} />
+        <NewModuleButton />
         <DatePicker
           date={date}
           open={open}
