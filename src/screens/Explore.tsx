@@ -3,11 +3,19 @@ import { CompositeScreenProps } from '@react-navigation/native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { NativeStackNavigatorProps } from '@react-navigation/native-stack/lib/typescript/src/types';
 import React from 'react';
-import { Text, View, StyleSheet, ScrollView, Button } from 'react-native';
+import {
+  Text,
+  View,
+  StyleSheet,
+  ScrollView,
+  Button,
+  AppState,
+} from 'react-native';
 import styled from 'styled-components/native';
 import { ExploreStackParams, RootStackParamList } from '../../AppTabNavigator';
 import Menu from '../components/Menu';
 import RestaurantCard from '../components/RestaurantCard';
+import AppStateComp from './AppStateComp';
 
 interface IProps {}
 
@@ -31,6 +39,7 @@ const Title = styled.Text`
 type Props = NativeStackScreenProps<RootStackParamList, 'ExploreStack'>;
 
 const Explore = ({ navigation }: Props) => {
+  console.log('AppState.currentState=====', AppState.currentState);
   return (
     <SafeArea style={styles.container}>
       <Button
@@ -93,7 +102,9 @@ const Explore = ({ navigation }: Props) => {
             });
           }}
         />
+        <AppStateComp />
       </ScrollView>
+
       <Menu />
     </SafeArea>
   );
